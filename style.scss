@@ -35,8 +35,9 @@ body {
 }
 
 #retangulo-pai {
+    filter: blur(0.5px);
     width: 1536px;
-    height: 800px;  
+    height: 730px;  
     background-color: $color-bg-pg;
     display: flex;
     justify-content: center;
@@ -45,8 +46,8 @@ body {
 }
 #imagem {
     img {
-        width: 322px;
-        height: 450px;
+        width: 324px;
+        height: 410px;
         display: flex;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -56,47 +57,50 @@ body {
 
 #texto{
     width: 290px;
-    height: 450px;
+    height: 410px;
     display: flex;
     flex-direction: column;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: $color-text-bg;
     justify-content: center;
-    padding-left: 30px;
+    padding-left: 38px;
 
     #cabecalho {
         font-family: "Fraunces", serif;
-        padding-bottom: 03px;
+        padding-bottom: 0px;
         h1 {
             font-weight: 700;
-            line-height: 34px;
+            line-height: 30px;
+            font-size: 30px;
         }
 
         p1 {
+            padding-top: 10px;
             font-family: "Montserrat", sans-serif;
             color: $paragraph-text-color;
-            letter-spacing: 4px;
-            font-size: 14px;
+            letter-spacing: 8px;
+            font-size: 12px;
+            font-weight: 600;
         }
         p2 {
             font-family: "Montserrat", sans-serif;
             color: $paragraph-text-color;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 550;
-            line-height: 23px;
+            line-height: 20px;
         }
     }
 
     #preco {
         display: flex;
         align-items: center;
-        height: 82px;
+        height: 73px;
         font-weight: 600;
 
         h2 {
             font-family: "Fraunces", serif;
-            font-size: 32px;
+            font-size: 30px;
             color: $preco-color;
         }
 

@@ -79,19 +79,20 @@ body {
   display: flex;
   align-items: center;
   height: 73px;
-  font-weight: 600;
 }
 #texto #preco h2 {
   font-family: "Fraunces", serif;
   font-size: 30px;
   color: hsl(158, 37%, 37%);
+  font-weight: 800;
 }
 #texto #preco p2 {
   font-family: "Montserrat", sans-serif;
-  padding-left: 20px;
+  padding-left: 40px;
   text-decoration: line-through;
   color: hsl(228, 12%, 48%);
   font-size: 14px;
+  font-weight: 510;
 }
 
 .botao {
